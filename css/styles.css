@@ -1,0 +1,531 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+  height: 100%;
+}
+main{
+    flex: 1 0 auto;
+}
+.container {
+  width: 1600px;
+  margin: 0 auto;
+  text-align: left;
+  min-height: 100%;
+}
+nav{
+  background-image: url("../pictures/header_background.png");
+  height: 159px;
+  width: 1600px;
+  position: fixed;
+}
+nav a:hover {
+  background-color: black;
+}
+li{
+  display: inline-block;
+}
+.main-logo{
+  padding-right: 190px;
+  padding-top: 47px;
+  padding-left: 179px;
+}
+.menu-button{
+  padding-left: 50px;
+  padding-top: 46px;
+  font-family: "Gentium Book Basic";
+  color: white;
+  font-size: 21px;
+}
+.social-networks{
+  padding-left: 20px;
+  padding-top: 47px;
+}
+.fa:before{
+  color: #dab33e;
+  font-size: 24px;
+}
+.block_1{
+  height: 700px;
+  width: 1600px;
+  background-image: url("../pictures/block1.png");
+}
+.str1-block1{
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-size: 89px;
+  color: white;
+  padding: 240px 0px 0px 322px;
+}
+.str2-block1{
+  font-family: "Yeseva One";
+  font-size: 89px;
+  color: white;
+  padding: 20px 0px 0px 404px;
+}
+.picture-logo2{
+  padding-left: 685px;
+}
+.buttons{
+  display: flex;
+}
+.black_button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../pictures/black_button_bg.png");
+  margin: 0px 30px 0px 555px;
+  width: 228px;
+  height: 57px;
+  border: 1px solid black;
+}
+.white_button{
+  background-image: url("../pictures/white_button_bg.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 228px;
+  height: 57px;
+  border: 1px solid white;
+}
+.text-button{
+  font-family: Lato;
+  color: white;
+  font-size: 18px;
+}
+a{
+  text-decoration:none;
+  color: white;
+}
+.block_2{
+  width: 1600px;
+  display: flex;
+  height: 710px;
+  background-image: url("../pictures/block_2_6_bg.png");
+}
+.right-food-section{
+  margin: 99px 10px 0px 294px;
+  width: 420px;
+}
+.right-food-figure{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.right-food-section-logo{
+  font-family: "Yeseva One";
+  color: #DAB33E;
+  font-size: 36px
+}
+.right-food-section-text{
+  font-family: Lato;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.cook{
+  margin-top: 50px;
+}
+.dish{
+  margin-top: 53px;
+}
+.block_3 {
+  width: 1600px;
+  height: 758px;
+  background-image: url("../pictures/block_3_bg.png");
+}
+.test{
+  height: 100px;
+  width: 1600px;
+}
+.ingredients-section{
+  background-image: url("../pictures/block_3_section_back.png");
+  width: 570px;
+  height: 557px;
+  margin-left: 815px;
+}
+.ingredients-figure{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ingredients-logo{
+  font-family: "Yeseva One";
+  font-size: 36px;
+  color: white;
+  margin-top: 73px;
+}
+.ingredients-picture-logo{
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+.ingredients-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Lato;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  margin: 0 70px;
+}
+.ingredients-pictures {
+  display: flex;
+  margin-top: 74px;
+}
+.ing-pic{
+  width: 100px;
+  height: 100px;
+  border: 5px solid #4B433C;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+.block_4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1600px;
+  height: 994px;
+  background-image: url("../pictures/pattern2.png");
+}
+.block_4 h1 {
+  text-align: center;
+  font-family: "Yeseva One";
+  font-size: 36px;
+  color: #CC9900;
+  margin-bottom: 21px;
+}
+.block_4 h2 {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Yeseva One";
+  font-size: 19px;
+  color: #CC9900;
+  margin-top: 10px;
+}
+.menu-devider{
+  margin-left: 90px;
+  margin-bottom: 30px;
+}
+.menu-salads{
+  margin-top: 70px;
+}
+.menu-main-dishes{
+  margin-top: 70px;
+}
+.menu-special {
+  border: 1px solid #CC9900;
+}
+.menu-special>div{
+  margin: 10px;
+}
+.menu-special-img{
+  margin-bottom: -4px;
+  padding-left: 385px;
+}
+.block_4 p {
+  margin: 5px;
+  font-family: Lato;
+}
+.left-col-menu-block4{
+  margin-right: 167px;
+}
+.block_5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1600px;
+  height: 758px;
+  background-image: url("../pictures/block_5_bg.png");
+}
+.block_5 img {
+  margin-bottom: 28px;
+}
+.block_5 figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.reviews {
+  background-image: url("../pictures/block_5_section_bg.png");
+  height: 556px;
+  width: 770px;
+}
+.coma {
+  flex: 2 0 auto;
+}
+.reviews-logo {
+  font-family: "Yeseva One";
+  font-size: 36px;
+  color: white;
+  margin-top: 92px;
+  margin-bottom: 15px;
+}
+.reviews-text {
+  display: flex;
+  text-align: center;
+  color: white;
+  font-family: "Gentium Book Basic";
+  font-size: 25px;
+  line-height: 1.9;
+  margin: 0 69px;
+}
+.food-inc {
+  font-family: "open-sans reg";
+  font-size: 17px;
+  margin-top: 27px;
+  color: white;
+  text-align: center;
+}
+.block_6{
+  width: 1600px;
+  height: 710px;
+  background-image: url("../pictures/block_2_6_bg.png");
+  display: flex;
+}
+.block_6 h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Yeseva One";
+  font-size: 36px;
+  color: #CC9900;
+  margin-top: 96px;
+  margin-bottom: 12px;
+}
+.reservation-pictures {
+  display: flex;
+  height: 507px;
+  margin: 100px 100px 0 215px;
+}
+.reservation-1-img {
+  margin-right: 30px;
+}
+.reservation-article {
+  margin-right: 280px;
+}
+.reservation-article img {
+  padding-left: 98px;
+}
+.reservation-text1  {
+  margin-top: 25px;
+  margin-bottom: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Lato;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.5;
+}
+.reservation-text2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Lato;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 39px;
+}
+.label-name-email {
+  display: flex;
+  margin-bottom: 6px;
+}
+.name-label {
+  margin-right: 190px;
+}
+label{
+  font-family: "open-sans bold";
+  font-size: 13px;
+  color: #C9A131;
+}
+input{
+  font-family: "open-sans italic";
+  font-size: 16px;
+  width: 200px;
+  border: 1px solid #C8C6C6;
+  height: 34px;
+}
+.input-name {
+  margin-right: 24px;
+  margin-bottom: 26px;
+}
+.input-email {
+  margin-bottom: 26px;
+}
+.label-date-party {
+  display: flex;
+  margin-bottom: 6px;
+}
+.date-label {
+  margin-right: 200px;
+}
+.input-date {
+  margin-right: 25px;
+  background-image: url("../pictures/reservation_data.png");
+  background-repeat: no-repeat;
+  outline: none;
+  background-position: 180px;
+}
+.select-party {
+  background-image: url("../pictures/reservation_party.png");
+  background-repeat: no-repeat;
+  outline: none;
+  background-position: 180px;
+}
+select{
+  font-family: "open-sans italic";
+  font-size: 16px;
+  width: 200px;
+  border: 1px solid #C8C6C6;
+  height: 34px;
+  color: #7c7c7c;
+  -webkit-appearance: none;
+}
+.input-submit {
+  margin-left: 116px;
+  margin-top: 33px;
+  width: 200px;
+  height: 36px;
+  border: 1px solid #C8C6C6;
+  background-image: url("../pictures/reservation_button.png");
+  font-family: "open-sans reg";
+  font-size: 16px;
+  color: white;
+}
+footer {
+    flex: 0 0 auto;
+}
+.block_7 {
+    width: 1600px;
+    height: 320px;
+    background-color: black;
+}
+.footer-container{
+  display: flex;
+}
+.block_7 h1{
+  margin-top: 57px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Yeseva One";
+  color: white;
+  font-size: 21px;
+}
+.block_7 img {
+  margin-top: 21px;
+  margin-bottom: 23px;
+}
+.about-us{
+  margin-left: 228px;
+  margin-right: 114px;
+}
+.img-about-us{
+  margin-left: 70px;
+}
+.footer-col-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "open-sans reg";
+  font-size: 16px;
+  color: white;
+}
+.opening-hours{
+  margin-right: 200px;
+}
+.footer-col-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "open-sans reg";
+  font-size: 16px;
+  color: white;
+}
+.cards{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-col-3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "open-sans bold";
+  font-size: 16px;
+  color: white;
+}
+.socials{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bold {
+  font-family: "open-sans bold";
+  font-size: 16px;
+}
+@font-face {
+font-family: "Gentium Book Basic";
+src: url("../fonts/Gentium_Book_Basic/GenBkBasB.ttf");
+font-style: normal;
+font-weight: normal;
+}
+@font-face {
+font-family: "Lato";
+src: url("../fonts/Lato/Lato-Regular.ttf");
+font-style: normal;
+font-weight: normal;
+}
+@font-face {
+font-family: "Yeseva One";
+src: url("../fonts/Yeseva_One/YesevaOne-Regular_v2.otf");
+font-style: normal;
+font-weight: normal;
+}
+@font-face {
+font-family: "open-sans";
+src: url("../fonts/open-sans/OpenSans-Italic.ttf");
+font-style: normal;
+font-weight: normal;
+}
+@font-face {
+  font-family: "open-sans reg";
+  src: url("../fonts/open-sans/OpenSans-Regular.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "open-sans italic";
+  src: url("../fonts/open-sans/OpenSans-Italic.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "open-sans bold";
+  src: url("../fonts/open-sans/OpenSans-Bold.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "font-awesome-4.7.0";
+  src: url("../fonts/font-awesome-4.7.0/font-awesome-4.7.0/fonts/fontawesome-webfont.svg");
+  font-style: normal;
+  font-weight: normal;
+}
